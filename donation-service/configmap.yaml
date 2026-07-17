@@ -9,4 +9,4 @@ data:
   PORT: "8082"
   AWS_REGION: "us-east-1"
   # Atualize com a URL real da fila SQS provisionada pelo Terraform
-  AWS_SQS_URL: "https://sqs.us-east-1.amazonaws.com/PLACEHOLDER_AWS_ACCOUNT_ID/solidary-donations"
+  AWS_SQS_URL: "https://sqs.us-east-1.amazonaws.com/510818802086/solidary-donations"
