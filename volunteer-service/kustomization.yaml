@@ -7,6 +7,6 @@ resources:
   - configmap.yaml
   - ingress.yaml
 images:
-  - name: volunteer-service-image
-    newName: PLACEHOLDER_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/volunteer-service
-    newTag: latest
+- name: volunteer-service-image
+  newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/volunteer-service
+  newTag: 68087299214856c24c03e579d3a4aad2c8dc1125

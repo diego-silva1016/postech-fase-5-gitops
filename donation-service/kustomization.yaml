@@ -7,6 +7,6 @@ resources:
   - configmap.yaml
   - ingress.yaml
 images:
-  - name: donation-service-image
-    newName: PLACEHOLDER_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/donation-service
-    newTag: latest
+- name: donation-service-image
+  newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/donation-service
+  newTag: cb924d305a54b594a7e7bae865872891b65d8257
