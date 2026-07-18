@@ -2,13 +2,13 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: solidarytech
 resources:
-  - deployment.yaml
-  - service.yaml
-  - ingress.yaml
+- deployment.yaml
+- service.yaml
+- ingress.yaml
 # O ConfigMap donation-service-config e criado pelo Terraform
 # (resources/k8s-secrets), junto com as Secrets, para poder usar
 # a URL real da fila SQS obtida via data source.
 images:
 - name: donation-service-image
-  newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/donation-service
-  newTag: cb924d305a54b594a7e7bae865872891b65d8257
+  newName: 946941161898.dkr.ecr.us-east-1.amazonaws.com/donation-service
+  newTag: 68087299214856c24c03e579d3a4aad2c8dc1125
