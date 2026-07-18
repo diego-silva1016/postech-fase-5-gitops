@@ -8,5 +8,5 @@ resources:
 - ingress.yaml
 images:
 - name: ngo-service-image
-  newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/ngo-service
-  newTag: 2f074dcc461b85566dcea10cd9c0c79ec6ac79d7
+  newName: 946941161898.dkr.ecr.us-east-1.amazonaws.com/ngo-service
+  newTag: 68087299214856c24c03e579d3a4aad2c8dc1125
