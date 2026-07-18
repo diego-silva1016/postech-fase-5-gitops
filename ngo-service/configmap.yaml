@@ -7,7 +7,3 @@ metadata:
     app: ngo-service
 data:
   PORT: "8081"
-  DB_HOST: "ngo-db.ccwez2qfbfia.us-east-1.rds.amazonaws.com"
-  DB_NAME: "ngo_db"
-  DB_USER: "ngo_admin"
-  AWS_REGION: "us-east-1"
