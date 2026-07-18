@@ -2,11 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: solidarytech
 resources:
-  - deployment.yaml
-  - service.yaml
-  - configmap.yaml
-  - ingress.yaml
+- deployment.yaml
+- service.yaml
+- configmap.yaml
+- ingress.yaml
 images:
 - name: volunteer-service-image
-  newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/volunteer-service
+  newName: 946941161898.dkr.ecr.us-east-1.amazonaws.com/volunteer-service
   newTag: 68087299214856c24c03e579d3a4aad2c8dc1125
