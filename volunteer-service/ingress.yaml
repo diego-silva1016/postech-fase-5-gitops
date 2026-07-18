@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: volunteer-service
+  namespace: solidarytech
+  labels:
+    app: volunteer-service
+spec:
+  ingressClassName: nginx
+  rules:
+    - http:
+        paths:
+          - path: /volunteers
+            pathType: Prefix
+            backend:
+              service:
+                name: volunteer-service
+                port:
+                  number: 8083

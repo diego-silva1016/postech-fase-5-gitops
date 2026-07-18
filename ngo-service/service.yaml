@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ngo-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: ngo-service
   ports:

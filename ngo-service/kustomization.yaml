@@ -5,6 +5,7 @@ resources:
 - deployment.yaml
 - service.yaml
 - configmap.yaml
+- ingress.yaml
 images:
 - name: ngo-service-image
   newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/ngo-service

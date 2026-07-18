@@ -5,6 +5,7 @@ resources:
   - deployment.yaml
   - service.yaml
   - configmap.yaml
+  - ingress.yaml
 images:
   - name: donation-service-image
     newName: PLACEHOLDER_AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/donation-service
